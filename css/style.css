@@ -1,0 +1,397 @@
+.nav-links{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+
+.navbar{
+  border-radius: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  background-color: #C0D7DE;
+  margin: 20px 30px;
+  padding: 15px
+}
+
+a{
+  text-decoration: none;
+  color: #41322C;
+}
+
+a:hover{
+  color: #CF6136;
+}
+
+.box1{
+  background-color: #CF6136;
+  position: relative;
+  top: 50px;
+  height: 100px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px
+}
+.box2{
+  background-color: #DDB63C;
+  opacity: 75%;
+  position: relative;
+  top: 5px;
+  height: 100px;
+  margin-left: 5%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.box3{
+  background-color: #E8E9A7;
+  opacity: 75%;
+  position: relative;
+  bottom: 35px;
+  height: 100px;
+  margin-left: 50%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px
+}
+
+body{
+  background-color: #FAF3E7;
+  color:#41322C;
+  font-family: Fraunces;
+}
+
+.about p{
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  font-style: italic;
+  font-size: 150px;
+  text-align:center;
+  margin-top: 3%;
+}
+
+.display{
+  font-style: italic;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.jazz-img{
+  position: absolute;
+  width: 60%;
+  height: auto;
+  left: 20%;
+  transform: translateX (-50%);
+  z-index: 0;
+}
+.swing{
+  position: relative;
+  transition: transform .25s ease;
+  text-align:left;
+  padding-left: 15%;
+  z-index: 1;
+}
+
+.swing:hover{
+  transform: translateY(-25px);
+}
+
+.rhythm{
+  position: relative;
+  transition: transform .25s ease;
+  text-align: right;
+  padding-right: 25%; 
+  z-index: 1;
+}
+
+.rhythm:hover{
+  transform: translateY(-25px);
+}
+
+
+.soul{
+  position: relative;
+  transition: transform .25s ease;
+  text-align: left;
+  padding-left: 30%;
+  z-index: 1;
+}
+
+.soul:hover{
+  transform: translateY(-25px);
+}
+
+.improv{
+  position: relative;
+  transition: transform .25s ease;
+  text-align: right;
+  padding-right: 15%;
+  padding-bottom: 15%;
+  z-index: 1;
+}
+
+.improv:hover{
+  transform: translateY(-25px);
+}
+
+
+h2{
+  font-size: 3em;
+  margin-top: 14%;
+  padding-left: 10%;
+  margin-left: 20%;
+  position: relative;
+  z-index: 5;
+}
+
+.box4{
+  background-color: #DDB63C;
+  opacity: 50%;
+  position: relative;
+  bottom: 120px;
+  height: 100px;
+  margin-left: 20%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px
+}
+
+.box5{
+  background-color: #CF6136;
+  opacity: 80%;
+  position: relative;
+  bottom: 300px;
+  height: 100px;
+  margin-left: 50%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px
+}
+
+.copy-group{
+  position: relative;
+}
+
+.copy1{
+  background-color: rgba(66, 103, 122, .20);
+  margin-left: 10%;
+  margin-right: 45%;
+  padding: 5% 3%;
+  border-radius: 10%;
+}
+
+.copy2{
+  background-color: rgba(221,182,60,.40);
+  margin-left: 45%;
+  margin-right: 10%;
+  padding: 5% 3%;
+  border-radius: 10%;
+  position: absolute;
+  top: 220px;
+}
+
+.copy3{
+  background-color: rgba(207, 97, 54, .20);
+  margin-left: 10%;
+  margin-right: 45%;
+  padding: 5% 3%;
+  border-radius: 10%;
+  margin-top: 160px;
+}
+
+.box6{
+  z-index: 4;
+  background-color:#C0D7DE;
+  opacity: 80%;
+  position: relative;
+  top: 340px;
+  height: 100px;
+  margin-right: 20%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px
+}
+ 
+.box7{
+  background-color: #42677A;
+  opacity: 100%;
+  position: relative;
+  top: 280px;
+  height: 100px;
+  margin-right: 15%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px
+}
+
+.characterset{
+  font-size: 3em;
+  margin-left: 25%;
+  padding-bottom: 7%;
+}
+
+.treble{
+  position: absolute;
+  width: 25%;
+  height: auto;
+  transform: translateY(-15%);
+  left: 7%;
+}
+
+.line1{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid #41322C;
+  width: 950px  
+}
+
+.line2{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid #41322C;
+  width: 950px 
+}
+
+.line3{
+  padding-top: 1%;
+  padding-bottom: 1%;  
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid #41322C;
+  width: 950px 
+}
+
+.line4{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid #41322C;
+  width: 950px 
+}
+
+.bass{
+  position: absolute;
+  width: 25%;
+  height: auto;
+  transform: translateY(41%);
+  left: 11%;
+}
+
+.line5{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 3em;
+  text-align: center;
+  margin: 12% auto 0;
+  border: 2px solid #41322C;
+  width: 950px 
+}
+
+.line6{  
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid #41322C;
+  width: 950px 
+}
+
+.line7{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid #41322C;
+  width: 950px 
+}
+
+.line8{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid #41322C;
+  width: 950px 
+}
+
+h3{
+  position: relative;
+  z-index: 8;
+  font-size: 3em;
+  padding-top: 15%;
+  padding-bottom: 6%;
+  text-align: right;
+  margin-right: 20%;
+}
+
+.box8{
+  background-color: #DDB63C;
+  opacity: 70%;
+  position: relative;
+  z-index: 7;
+  top: 420px;
+  height: 100px;
+  margin-left: 60%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px
+}
+
+.box9{
+  background-color: #CF6136;
+  opacity: 80%;
+  position: relative;
+  top: 360px;
+  height: 100px;
+  margin-left: 70%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px
+}
+
+h4{
+  text-align: left;
+  font-size: 2em;
+  padding-left: 27%;
+  margin-bottom: 1%;
+}
+
+h5{
+  margin-top: 0;
+  text-align: left;
+  font-size: 1.3em;
+  padding-left: 27%;
+}
+
+.chicago{
+  font-size: 1.3em;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.hydepark{
+  font-size: 1.3em;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.furtherjazz{
+  font-size: 1.3em;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-bottom: 8%;
+}
